@@ -85,3 +85,34 @@ input {
 #lablecheck9:checked ~ div #check9 {
     background-color: green;
 }
+
+
+
+.g {
+    position: relative;
+    opacity: 1;
+    display: none;
+}
+
+.lc  {
+    height: 6px;
+    width: 5.5px;
+    border: 1px solid gray;
+    display: inline-block;
+    position: relative;
+    background-color:#FFF;
+    border-radius:2px;
+    padding:3px;
+}
+
+.lc [type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12.1px;
+    font-size: 9px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 1px;
+}
