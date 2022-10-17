@@ -69,22 +69,19 @@ input {
 .lcheck {
     cursor: pointer;
     display: block;
-}
-
-.lcheck div {
-    background-color: yellow;
     width: 100%;
     height: 100%;
+    background-color: yellow;
 }
 
-#lablecheck1:checked ~ div .lcheck #lcheck1,
-#lablecheck2:checked ~ div .lcheck #lcheck2,
-#lablecheck3:checked ~ div .lcheck #lcheck3,
-#lablecheck4:checked ~ div .lcheck #lcheck4,
-#lablecheck5:checked ~ div .lcheck #lcheck5,
-#lablecheck6:checked ~ div .lcheck #lcheck6,
-#lablecheck7:checked ~ div .lcheck #lcheck7,
-#lablecheck8:checked ~ div .lcheck #lcheck8,
-#lablecheck9:checked ~ div .lcheck #lcheck9 {
+#lablecheck1:checked ~ div #check1,
+#lablecheck2:checked ~ div #check2,
+#lablecheck3:checked ~ div #check3,
+#lablecheck4:checked ~ div #check4,
+#lablecheck5:checked ~ div #check5,
+#lablecheck6:checked ~ div #check6,
+#lablecheck7:checked ~ div #check7,
+#lablecheck8:checked ~ div #check8,
+#lablecheck9:checked ~ div #check9 {
     background-color: green;
 }
